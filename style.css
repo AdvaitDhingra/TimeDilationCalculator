@@ -1,0 +1,18 @@
+.props{
+    width: 500px;
+    height: auto;
+    list-style: none;
+}
+.props input{
+    list-style: none;
+    width: 100%;
+    padding: 10px 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+@media only screen and (max-width: 700px){
+    .props{
+        width: 350px;
+    }
+}
